@@ -1,0 +1,86 @@
+body{
+    margin :  0  ; 
+    font-family:  'Roboto Condensed', sans-serif;;
+    background :rgb(87, 86, 96)
+    
+
+}
+
+.outer{
+    width : 80% ; 
+    height  :  500px  ;  
+    border : solid 1px rgb(112 ,  104 , 104  )  ; 
+    margin : auto   ; 
+    margin-top  :  100px  ; 
+    border-radius: 25px ;  
+    display: flex ;  
+    flex-direction: row;
+
+
+
+}
+.right{
+    height: 500px ; 
+    width: 50% ;  
+    border : solid 1px rgb(135, 126, 126)  ;  
+    border-top-right-radius: 25px ;
+    border-bottom-right-radius: 25px  ;
+    position : relative   ; 
+
+
+
+}
+
+.left{
+    height: 500px ; 
+    width: 50% ;  
+    border : solid 1px rgb(112, 104, 104)  ;
+    border-top-left-radius: 25px ;
+    border-bottom-left-radius: 25px  ;
+    background: url(./alexander-shatov-_tF3vug2FhQ-unsplash.jpg) ; 
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.login{
+    position  : absolute ; 
+    top  :  110px  ; 
+    left : 100px   ;  
+    right : 50px   ;  
+    height:   300px  ; 
+    width  : 400px  ;  
+    overflow: hidden;
+    text-align: center ;  
+    padding :  20px  ;  
+    font-size: 25px ;  
+    border-radius: 10px  ;  ;
+
+    border : solid 1px  rgb(158, 151, 151)  ;  
+
+
+}
+
+.username{
+    text-align: left  ;  
+    ;
+}
+
+.password{
+    text-align: left  ;  
+    ;
+}
+
+.img{
+    position : absolute  ; 
+    left  : 150px ;  
+
+}
+
+.loginbtn{
+    background: transparent ;
+
+    border-radius: 15px ; 
+    outline: 0px;
+    width  :  200px ;  
+}
+
